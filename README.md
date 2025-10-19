@@ -2,7 +2,8 @@
 JR's 'London Bridge' theme for Facility Meltdown
 Thanks to original mod dev and 3FS for track!
 # !!! COFNIG !!!
-## I preredacted mod configs, if you wish to know ofc, you can change values for your own greater expirience! 
+## I changed these configs in advance, if the music doesn't work, it's better to change them manually
+
 facilitymeltdownClient.cfg
 
     Set "MusicVolume" to "0"

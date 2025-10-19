@@ -5,7 +5,7 @@
             "volumeLerpSpeed": 1,
             "tag": "EscapeMusic",
             "isAddon": true,
-            "stoppingVolumeLerpSpeed": 0.2,
+            "stoppingVolumeLerpSpeed": 0.025,
             "volumeRules": [
                 {
                     "comment": "Spectator volume",
