@@ -49,7 +49,7 @@
             "tag": "EscapeMusic",
 			"overlapHandling": "OverrideFadeAll",
             "musicNames": [
-                "LondonBridge.wav"
+                "LondonBridge"
             ]
         }
     ]
