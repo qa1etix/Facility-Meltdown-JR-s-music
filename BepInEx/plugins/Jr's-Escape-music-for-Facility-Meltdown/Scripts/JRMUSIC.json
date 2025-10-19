@@ -4,6 +4,7 @@
         {
             "volumeLerpSpeed": 1,
             "tag": "EscapeMusic",
+            "isAddon": true,
             "stoppingVolumeLerpSpeed": 0.2,
             "volumeRules": [
                 {
@@ -48,7 +49,7 @@
             "tag": "EscapeMusic",
 			"overlapHandling": "OverrideFadeAll",
             "musicNames": [
-                "London Bridge.wav"
+                "LondonBridge.wav"
             ]
         }
     ]
