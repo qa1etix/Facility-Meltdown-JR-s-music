@@ -1,0 +1,55 @@
+{
+    "comment": "Main Script",
+    "volumeGroups": [
+        {
+            "volumeLerpSpeed": 1,
+            "tag": "EscapeMusic",
+            "stoppingVolumeLerpSpeed": 0.2,
+            "volumeRules": [
+                {
+                    "comment": "Spectator volume",
+                    "volume": 0.4,
+                    "condition": {
+                        "conditionType": "Not",
+                        "condition": {
+                            "conditionType": "PlayerAlive"
+                        }
+                    }
+                },
+                {
+                    "comment": "Inside facility volume",
+                    "volume": 1,
+                    "condition": {
+                        "conditionType": "PlayerLocation",
+                        "location": "Facility"
+                    }
+                },
+                {
+                    "comment": "Inside ship volume",
+                    "volume": 0.7,
+                    "condition": {
+                        "conditionType": "PlayerLocation",
+                        "location": "Ship"
+                    }
+                },
+                {
+                    "comment": "Default volume",
+                    "volume": 1
+                }
+            ]
+        }
+    ],
+    "scriptEvents": [
+        {
+            "comment": "Plays 'London Bridge' fragment when Apparatus Taken",
+			"scriptEventType": "PlayMusic",
+            "gameEventType": "ApparatusTaken",
+            "silenceGameMusic" : "true",
+            "tag": "EscapeMusic",
+			"overlapHandling": "OverrideFadeAll",
+            "musicNames": [
+                "London Bridge.wav"
+            ]
+        }
+    ]
+}

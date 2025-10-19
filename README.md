@@ -1,13 +1,14 @@
-# loaforcsSoundAPI - Examples
-This repo contains abunch of examples and templates to use loaforcsSoundAPI.
+# Custom Pizza Tower Escape Music Example
+JR's 'London Bridge' theme for Facility Meltdown
+Thanks to original mod dev and 3FS for track!
+# !!! COFNIG !!!
+## I preredacted mod configs, if you wish to know ofc, you can change values for your own greater expirience! 
+facilitymeltdownClient.cfg
 
-> [!IMPORTANT]
-> Keep in mind all the examples will use `.ogg` as their audio format. You can either:
-> - Convert to `.ogg` with a program like [audacity](https://www.audacityteam.org/)
-> - Or change the files in the `replacers` folder to use your audio format instead. Currently supported formats are:
->    - `.ogg` (preferred)
->    - `.wav`
->    - `.mp3`
+    Set "MusicVolume" to "0"
+    Set "MusicPlaysOutside" to "false"
 
-## Current Examples
-- CustomMeltdownMusic: Changes the music from my other mod: FacilityMeltdown to whatever is selected
+pizzatowerescapemusic.cfg
+
+    Set "Scripts" to "JRMUSIC"
+    (If you wish to use Lethal Resonance Meltdown, set "Scripts" to "Default,JRMUSIC")

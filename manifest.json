@@ -1,0 +1,7 @@
+{
+  "name": "JR's meltdown escape music",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "JR's 'London Bridge' soundtrack fragment for facility meltdown mod",
+  "dependencies": ["BGN-PizzaTowerEscapeMusic-2.4.0","loaforc-FacilityMeltdown-2.7.3", "BepInEx-BepInExPack-5.4.2100"]
+}
