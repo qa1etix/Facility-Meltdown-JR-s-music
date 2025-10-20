@@ -1,6 +1,6 @@
 {
   "name": "JRMeltdownEscapeMusic",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": "https://github.com/qa1etix/Facility-Meltdown-JR-s-music",
   "description": "JR London Bridge soundtrack fragment for facility meltdown mod",
   "dependencies": ["BGN-PizzaTowerEscapeMusic-2.4.0","loaforc-FacilityMeltdown-2.7.3", "BepInEx-BepInExPack-5.4.2100"]
