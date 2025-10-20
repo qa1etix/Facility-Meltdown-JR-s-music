@@ -1,14 +1,15 @@
 # JR's 'London Bridge' theme for Facility Meltdown
-<<<<<<< HEAD
-## Very important : You need to place BGN-PizzaTowerEscapeMusic folder into original mod folder if you want this music to work 
-BGN-PizzaTowerEscapeMusic
-    DefaultMusic    
-        LondonBridge.wav
-    DefaultScripts
-        JRMUSIC.json
 
-=======
->>>>>>> c0eb7079ba4a5bbee7476293ed506a1798787020
+## Very important : You need to place BGN-PizzaTowerEscapeMusic folder into original mod folder if you want this music to work 
+'''
+plugins/
+    BGN-PizzaTowerEscapeMusic/
+        DefaultMusic/    
+            LondonBridge.wav
+        DefaultScripts/
+            JRMUSIC.json
+'''
+
 Thanks to original mod dev and 3FS for track!
 # !!! COFNIG !!!
 ## I changed these configs in advance, if the music doesn't work, it's better to change them manually
